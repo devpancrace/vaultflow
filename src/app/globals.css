@@ -1,1 +1,32 @@
 @import "tailwindcss";
+.glass-effect {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-bg {
+    background: radial-gradient(ellipse at center, rgba(99, 102, 241, 0.3) 0%, rgba(236, 72, 153, 0.2) 30%, rgba(15, 15, 35, 1) 70%);
+}
+
+.chart-line {
+    stroke: #6366f1;
+    stroke-width: 3;
+    fill: none;
+}
+
+.floating {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
