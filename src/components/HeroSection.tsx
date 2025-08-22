@@ -23,7 +23,7 @@ const HeroSection: React.FC = () => {
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
                     Modern analytics
                     <br />
-                    <span className="text-pink-400">for the modern world</span>
+                    <span className="">for the modern world</span>
                 </h1>
 
                 {/* Subtitle */}
@@ -35,10 +35,10 @@ const HeroSection: React.FC = () => {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-                    <button className="px-8 py-4 bg-white text-dark-bg rounded-lg font-semibold hover:bg-gray-100 transition-all transform hover:scale-105">
+                    <button className="px-8 py-3 bg-white text-dark-bg rounded-[50px] font-semibold hover:bg-gray-100 transition-all transform hover:scale-105">
                         Download the app
                     </button>
-                    <button className="px-8 py-4 rounded-lg border border-gray-400 text-gray-200 hover:text-white hover:border-gray-200 transition-all">
+                    <button className="px-8 py-3 rounded-[50px] border border-[#ECECEC] text-gray-200 hover:text-white hover:border-gray-200 transition-all">
                         Talk to an expert
                     </button>
                 </div>
@@ -52,6 +52,7 @@ const HeroSection: React.FC = () => {
                         className="rounded-2xl shadow-2xl border border-white/20"
                     />
                 </div>
+
             </div>
 
         </section>

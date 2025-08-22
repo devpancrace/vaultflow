@@ -2,7 +2,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
-import TrustedBySection from '../components/TrustedBySection';
+import TrustedSection from '../components/TrustedBySection';
 import FeaturesSection from '../components/FeaturesSection';
 import CTASection from '../components/CTASection';
 import Footer from '../components/Footer';
@@ -17,7 +17,7 @@ export default function HomePage() {
       <HeroSection />
       
       {/* Trusted By Section */}
-      <TrustedBySection />
+      <TrustedSection />
       
       {/* Features Section */}
       <FeaturesSection />
