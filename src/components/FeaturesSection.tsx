@@ -13,7 +13,7 @@ const FeatureSection: React.FC = () => {
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
                         Features that<br />
                         work for your<br />
-                        <span className="gradient-text">future.</span>
+                        <span className="">future.</span>
                     </h2>
                     <p className="text-xl text-gray-400 max-w-2xl mx-auto">
                         Check out our amazing features and experience the
@@ -65,7 +65,7 @@ const FeatureSection: React.FC = () => {
                             transferable between users and are backed up by blockchain
                             technology to ensure that they stay safe.
                         </p>
-                        <button className="text-purple-custom text-purple-400 font-medium">
+                        <button className="text-medium  text-lg font-montserrat text-white font-[500]  underline">
                             View tokens →
                         </button>
                     </div>
@@ -78,9 +78,12 @@ const FeatureSection: React.FC = () => {
                     <div className="grid md:grid-cols-2 gap-8 items-center">
                         <div>
                             <div className="w-12 h-12 bg-pink-custom rounded-xl flex items-center justify-center mb-6">
-                                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
-                                </svg>
+                            <Image
+                                src={'/code.png'}
+                                width={50}
+                                height={50}
+                                alt=''
+                            />
                             </div>
                             <h3 className="text-2xl font-bold text-white mb-4">Code collaboration</h3>
                             <p className="text-gray-400 mb-6 leading-relaxed">

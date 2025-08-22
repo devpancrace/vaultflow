@@ -23,7 +23,7 @@ const HeroSection: React.FC = () => {
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
                     Modern analytics
                     <br />
-                    <span className="text-pink-400">for the modern world</span>
+                    <span className="">for the modern world</span>
                 </h1>
 
                 {/* Subtitle */}
@@ -52,6 +52,7 @@ const HeroSection: React.FC = () => {
                         className="rounded-2xl shadow-2xl border border-white/20"
                     />
                 </div>
+
             </div>
 
         </section>
