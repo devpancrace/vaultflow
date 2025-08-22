@@ -7,7 +7,7 @@ import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
 const FeatureSection: React.FC = () => {
     return (
 
-        <section className="py-20 px-6">
+        <section className=" relative py-20 px-6">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
@@ -82,6 +82,7 @@ const FeatureSection: React.FC = () => {
                                 src={'/code.png'}
                                 width={50}
                                 height={50}
+                                layout='responsive'
                                 alt=''
                             />
                             </div>

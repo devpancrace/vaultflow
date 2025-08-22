@@ -35,10 +35,10 @@ const HeroSection: React.FC = () => {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-                    <button className="px-8 py-4 bg-white text-dark-bg rounded-lg font-semibold hover:bg-gray-100 transition-all transform hover:scale-105">
+                    <button className="px-8 py-3 bg-white text-dark-bg rounded-[50px] font-semibold hover:bg-gray-100 transition-all transform hover:scale-105">
                         Download the app
                     </button>
-                    <button className="px-8 py-4 rounded-lg border border-gray-400 text-gray-200 hover:text-white hover:border-gray-200 transition-all">
+                    <button className="px-8 py-3 rounded-[50px] border border-[#ECECEC] text-gray-200 hover:text-white hover:border-gray-200 transition-all">
                         Talk to an expert
                     </button>
                 </div>

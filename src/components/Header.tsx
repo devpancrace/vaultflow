@@ -8,8 +8,8 @@ export default function Header() {
 
   return (
     <>
-      <header className="w-full fixed top-0 z-50 bg-[rgba(11,1,33,1)] ">
-        <nav className="relative z-50 px-6 py-4">
+      <header className="w-full fixed top-0 z-50 bg-[rgba(11,1,33,1)]">
+        <nav className="relative z-50 px-[120px] py-4">
           <div className="max-w-7xl mx-auto flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center space-x-2">
@@ -23,13 +23,13 @@ export default function Header() {
 
             {/* Menu desktop */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="#" className="text-gray-300 font-normal leading-[1.5] ">
                 Features
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="#" className="text-gray-300 font-normal leading-[1.5] ">
                 Pricing
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="#" className="text-gray-300 font-normal leading-[1.5]">
                 About us
               </a>
             </div>
@@ -37,7 +37,11 @@ export default function Header() {
             {/* Actions */}
             <div className="flex items-center space-x-4">
               {/* Bouton desktop uniquement */}
-              <button className="hidden md:block px-4 py-2 bg-white text-dark-bg rounded-lg font-medium hover:bg-gray-100 transition-colors">
+              <button className="hidden md:block px-4 py-2 bg-white text-dark-bg rounded-[50px] font-medium hover:bg-gray-100 transition-colors">
+                Download the app
+              </button>
+
+              <button className="hidden md:block px-4 py-2 text-white border border-[#ECECEC] text-dark-bg rounded-[50px] font-medium hover:bg-gray-100 transition-colors">
                 Talk to an expert
               </button>
 
@@ -74,13 +78,13 @@ export default function Header() {
                 <X size={28} />
               </button>
 
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="#" className="text-gray-300 font-normal leading-[1.5]">
                 Features
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="#" className="text-gray-300 font-normal leading-[1.5]">
                 Pricing
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="#" className="text-gray-300 font-normal leading-[1.5]">
                 About us
               </a>
             </div>
