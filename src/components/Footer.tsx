@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
     return (
         <footer className="py-16 px-6 border-t border-gray-800">
         <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
                 <div>
                     <h4 className="text-white font-semibold mb-4">Contact</h4>
                     <div className="space-y-2 text-gray-400 text-sm">
@@ -22,20 +22,21 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
                 
-                <div>
-                    <h4 className="text-white font-semibold mb-4">Social</h4>
-                    <div className="space-y-2 text-gray-400 text-sm">
-                        <p>Twitter</p>
-                        <p>Instagram</p>
-                        <p>TikTok</p>
-                    </div>
-                </div>
+              
                 
                 <div>
                     <h4 className="text-white font-semibold mb-4">Careers</h4>
                     <div className="space-y-2 text-gray-400 text-sm">
                         <p>Careers@Vaultflow.com</p>
                         <p className="text-xs pt-4">© 2023 all rights reserved</p>
+                    </div>
+                </div>
+                <div>
+                    <h4 className="text-white font-semibold mb-4">Social</h4>
+                    <div className="space-y-2 text-gray-400 text-sm">
+                        <p>Twitter</p>
+                        <p>Instagram</p>
+                        <p>TikTok</p>
                     </div>
                 </div>
             </div>
