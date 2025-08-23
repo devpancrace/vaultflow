@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="py-16 px-6 border-t border-gray-800">
+        <footer className="py-16 px-36 border-t  border-gray-800">
         <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
                 <div>

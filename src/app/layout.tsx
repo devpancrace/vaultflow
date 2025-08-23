@@ -41,9 +41,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html  lang="en">
       <body
-        className={`${montserrat.className} antialiased`}
+        className={`${montserrat.className} bg-[url('/hero-stack-min.jpg')] bg-cover bg-center bg-no-repeat min-h-screen antialiased`}
       >
         {children}
       </body>

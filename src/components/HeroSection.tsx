@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const HeroSection: React.FC = () => {
     return (
-        <section className=" h-[90vh] mb-50 pt-[170px] pr-[20px] pb-[0px] pl-[20px] ">
+        <section className="relative h-[170vh]  pt-[190px] pr-[20px] pb-[0px] pl-[20px] ">
             {/* HeroSection content goes here */}
             
             {/* Overlay sombre */}
        
-            <div className=" absolute inset-0 bg-cover h-full mt-10 bg-[url(../../public/hero-stack-min.jpg)]"></div>
+            {/* <div className=" absolute inset-0 bg-cover h-full mt-10 bg-[url(../../public/hero-stack-min.jpg)]"></div> */}
 
             {/* Contenu */}
             <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">

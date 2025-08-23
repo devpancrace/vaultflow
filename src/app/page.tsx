@@ -10,20 +10,25 @@ import Footer from '../components/Footer';
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#0f0f23]">
+    <div className="min-h-full flex flex-col ">
       {/* Header Navigation */}
       <Header />
+    
+
       {/* Hero Section */}
       <HeroSection />
-      
+       
       {/* Trusted By Section */}
       <TrustedSection />
       
+     
       {/* Features Section */}
       <FeaturesSection />
       
+
       {/* Final CTA Section */}
       <CTASection />
+      
     
       {/* Footer */}
       <Footer />

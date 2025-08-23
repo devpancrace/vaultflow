@@ -3,11 +3,15 @@ import React from 'react';
 import Image from 'next/image';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
-
+// Créer un thème custom basé sur tomorrow
+const customStyle = {
+  ...tomorrow,
+  function: { color: 'red' },
+  variable: { color: 'red' },
+}
 const FeatureSection: React.FC = () => {
     return (
-
-        <section className=" relative py-20 px-6">
+        <section className=" relative  px-6">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
@@ -100,7 +104,7 @@ const FeatureSection: React.FC = () => {
                         </div>
                         <div className="bg-card-bg rounded-xl p-6">
                             <div className="text-sm text-gray-400 mb-4">DataFrames</div>
-                            <SyntaxHighlighter language="javascript" style={tomorrow}>
+                            <SyntaxHighlighter language="javascript" style={customStyle}>
                                 {`// Collaborative
 async function getDataFromNetwork(userId) {
   const user = await fetch();

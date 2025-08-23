@@ -13,16 +13,16 @@ const TrustedSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 bg-dark-bg">
-      <div className="absolute max-w-6xl mx-auto flex flex-col items-center text-center px-6">
+    <section className="py-16 bg-dark-bg  flex items-center justify-center">
+      <div className="  max-w-6xl mx-auto mt-5 flex flex-col items-center text-center px-6">
         {/* Texte */}
-        <p className="text-gray-400 mb-10 text-lg">
+        <p className="text-gray-400 mb-5 text-lg">
           Trusted by teams at over{' '}
           <span className="font-semibold text-white">1,000</span> of the world’s leading organizations.
         </p>
 
         {/* Logos en flex */}
-        <div className="flex flex-wrap justify-center items-center gap-10">
+        <div className="flex flex-wrap justify-center items-center gap-5">
           {logos.map((logo, i) => (
             <div key={i} className="flex justify-center">
               <Image
